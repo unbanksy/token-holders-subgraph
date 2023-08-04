@@ -1,5 +1,16 @@
 # Token Holders Subgraph
 
+## Setup
+1. Install neccessary packages: 
+```
+npm install -g @graphprotocol/graph-cli
+yarn global add @graphprotocol/graph-cli
+yarn global add @graphprotocol/graph-ts
+```
+2. Create a subgraph in Subgraph Studio, get the deploy key.
+3. Authenticate: `graph auth --studio DEPLOY_KEY`
+4. Deploy: `graph deploy --studio olympus-tokenholders-subgraph`
+
 ## Intended Uses
 
 - Tracking the number of holders of a particular token
